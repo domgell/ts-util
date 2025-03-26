@@ -1,5 +1,5 @@
 {
-  "name": "ts-util",
+  "name": "@domgell/ts-util",
   "version": "1.0.0",
   "main": "src/index.ts",
   "exports": "./src/index.ts",
@@ -10,5 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Useful TypeScript utilities",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domgell/ts-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domgell/ts-util/issues"
+  },
+  "homepage": "https://github.com/domgell/ts-util#readme"
 }

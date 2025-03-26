@@ -10,6 +10,25 @@ export function assert(condition: boolean, msg?: string): asserts condition {
     }
 }
 
+// ------------------------------------ TypedArray -------------------------------------
+
+export type TypedArray =
+    | Float32Array
+    | Uint32Array
+    | Int32Array
+    | Uint16Array
+    | Int16Array
+    | Uint8Array
+    | Int8Array
+    | Uint8ClampedArray
+    | Float64Array
+    | BigInt64Array
+    | BigUint64Array;
+
+export function isTypedArray(obj: unknown): obj is TypedArray {
+    return ArrayBuffer.isView(obj) && !(obj instanceof DataView);
+}
+
 // ----------------------------------- DeepReadonly ------------------------------------
 
 export type DeepReadonly<T> =
