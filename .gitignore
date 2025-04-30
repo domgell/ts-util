@@ -1,4 +1,9 @@
 
 *.iml
-.idea
-/node_modules
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+node_modules/
+package-lock.json
